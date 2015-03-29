@@ -2,7 +2,7 @@ package com.wahson.patterns.singleton;
 
 /**
  * Created by wahsonleung on 15/3/29.
- * 双重检查加锁，懒加载，并实现线程安全，但是对于
+ * 双重检查加锁，懒加载，并实现线程安全
  */
 public class Singleton {
     private static Singleton instance = null;
